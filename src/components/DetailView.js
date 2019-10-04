@@ -6,7 +6,9 @@ const DetailView = ({ pokemon }) => {
 
     return (
         <section className="detail-view">
-            <img src={sprite} alt="sprite" className='sprite-image' />
+            <div className="data-image">
+                <img src={sprite} alt="sprite" className='sprite-image' />
+            </div>
             <div className='data-wrapper'>
                 <h1 className="data-id">ID: {id} </h1>
                 <h1 className='data-name'>Name: {name}</h1>
